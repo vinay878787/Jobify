@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+.navContainer {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 1vw;
+  font-weight: 600;
+  list-style: none;
+  padding: 0.7vw;
+}
+
+.brandName {
+  color: var(--heading-color);
+  font-size: 2vw;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+.navItem {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 1.2vw;
+  position: relative;
+  cursor: pointer;
+}
+
+.navItem::after {
+  content: "";
+  position: absolute;
+  background-color: var(--heading-color);
+  height: 2px;
+  width: 0;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s, background-color 0.3s;
+}
+
+.navItem:hover {
+  color: var(--common-color);
+}
+
+.navItem:hover::after {
+  width: 100%;
+  background-color: var(--common-color);
+}

@@ -1,0 +1,58 @@
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1vw;
+  align-items: center;
+  color: var(--common-color);
+}
+.imgContainer {
+  width: 50vw;
+}
+.imgContainer img {
+  width: 60%;
+}
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.registerContainer input {
+  padding: 0.5vw;
+  width: 15vw;
+  color: var(--common-color);
+  border: 2px solid var(--common-color);
+}
+.registerHeading {
+  padding: 2vw;
+  text-align: center;
+}
+.btn {
+  width: 12vw;
+  padding: 1vw;
+  background-color: var(--heading-color);
+  margin: 0 auto;
+  border: 2px solid var(--common-color);
+  font-size: 1.2vw;
+  border: none;
+  color: var(--common-color);
+}
+.btn:hover {
+  background-color: var(--common-color);
+  color: var(--border-color);
+}
+.maps {
+  text-align: center;
+}
+.registerContainer textarea {
+  border: 2px solid var(--common-color);
+  color: var(--common-color);
+}
+.mapLoader {
+  color: var(--common-color);
+  font-size: 2vw;
+}

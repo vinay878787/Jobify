@@ -1,0 +1,26 @@
+.container {
+  max-width: 100vw;
+  padding: 1vw;
+  margin-top: 3.6vw;
+  text-align: center;
+  background-color: var(--heading-color);
+  color: var(--common-color);
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+.container p {
+  background-color: var(--heading-color);
+  color: var(--common-color);
+}
+.container div,
+.container a {
+  font-size: 0.8vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: var(--heading-color);
+  color: var(--common-color);
+  text-decoration: none;
+}
+.container a:hover {
+  color: red;
+}

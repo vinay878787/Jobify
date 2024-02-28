@@ -1,0 +1,18 @@
+* {
+  --bg-color: #242424;
+  --common-color: #fff;
+  --heading-color: #646cff;
+  --paragraph-color: #40a2d8;
+  --helper-color: #f0edcf;
+  --border-color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+/* :root {
+  --bg-color: #f4f3ff;
+  --btn-color: #646cff;
+  --dark-color: #242424;
+  --helper-color: #99b9ff;
+} */

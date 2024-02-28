@@ -1,0 +1,50 @@
+.container {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: var(--common-color);
+}
+.innerContainer {
+  width: 30vw;
+}
+.errorNumber {
+  font-family: "Oswald", sans-serif;
+  font-size: 10vw;
+  color: var(--heading-color);
+}
+.errorNumber:hover {
+  color: red;
+}
+.mainError {
+  font-weight: 900;
+  line-height: 2vw;
+  padding-bottom: 1vw;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3vw;
+}
+.btnContainer button {
+  padding: 0.7vw;
+  width: 10vw;
+  cursor: pointer;
+  font-size: 0.8vw;
+  font-weight: 900;
+}
+.firstBtn {
+  background-color: var(--heading-color);
+  color: var(--common-color);
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.firstBtn:hover {
+  background-color: var(--common-color);
+  color: var(--border-color);
+}

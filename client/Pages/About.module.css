@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 3vw;
+}
+.heroContainer {
+  width: 40vw;
+  color: var(--common-color);
+  font-family: "Roboto", sans-serif;
+}
+.brandTitle {
+  font-size: 4.5vw;
+  padding-bottom: 1vw;
+  font-family: "Roboto", sans-serif;
+}
+.brandName {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.secondPara {
+  width: 30vw;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 2vw;
+}
+.btnContainer {
+  width: 20vw;
+  display: flex;
+  gap: 2vw;
+  padding-top: 2vw;
+}
+.btnContainer button {
+  padding: 0.7vw;
+  width: 10vw;
+  cursor: pointer;
+  font-size: 1vw;
+}
+.firstBtn {
+  background-color: var(--heading-color);
+  color: var(--common-color);
+  border: none;
+  font-weight: 700;
+}
+.secondBtn {
+  color: var(--common-color);
+  border: 2px solid var(--common-color);
+  font-weight: 700;
+}
+.secondBtn:hover {
+  background-color: var(--common-color);
+  color: var(--border-color);
+}

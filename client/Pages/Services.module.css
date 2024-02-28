@@ -1,0 +1,27 @@
+.container {
+  width: 80vw;
+  margin: 3vw auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: var(--common-color);
+  gap: 2vw;
+}
+.heading {
+  text-align: center;
+  color: var(--common-color);
+  padding: 3vw;
+}
+.cardStyle {
+  border: 2px solid var(--common-color);
+  padding: 1vw;
+}
+.firstContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
+}
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
